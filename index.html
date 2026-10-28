@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Llapi Fert | Gypa Betoni dhe Fertraj</title>
+    <meta property="og:image" content="https://llapifert.com/image/llogo.png" />
+    <link rel="stylesheet" href="style.css?v=site-assets-5" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img
+              class="logo-image"
+              src="image/llogo-header.png"
+              alt="Llapi Fert — prodhues të gypave të betonit dhe fertrajve"
+            />
+          </div>
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Hap menynë"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav id="navbar" aria-label="Navigimi kryesor">
+            <ul>
+              <li><a href="#home">KRYEFAQJA</a></li>
+              <li><a href="#about">RRETH NESH</a></li>
+              <li><a href="#products">PRODUKTET</a></li>
+              <li><a href="#gallery">FOTOT</a></li>
+              <li><a href="#contact">KONTAKT</a></li>
+              <li><a href="#location">LOKACIONI</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <picture class="hero-mobile-picture">
+        <source media="(max-width: 760px)" srcset="image/fotojaPhone.png" />
+        <img
+          class="hero-mobile-photo"
+          src="image/EFUNDIT.jpg"
+          alt="Kamioni i Llapi Fert duke transportuar produktet e kompanisë"
+        />
+      </picture>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-kicker">Që nga viti 1995</span>
+          <h1>Besim dhe cilësi në çdo ndërtim</h1>
+          <p>
+            Prodhues të gypave të betonit dhe fertrajve për shtëpi në Kosovë.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#products">SHIKO PRODUKTET</a>
+            <a class="hero-link" href="#contact"
+              >Na kontaktoni <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>RRETH NESH</h2>
+        </div>
+        <div class="about-content">
+          <div>
+            <h3>Kompania Jonë</h3>
+            <p>
+              Llapi Fert u themelua në vitin 1995 dhe është kompani lider në
+              prodhimin e gypave të betonit dhe fertrajve për shtëpi. Me përvojë
+              të gjatë në treg, ne ofrojmë produkte me cilësi të lartë për
+              projekte të ndryshme ndërtimi.
+            </p>
+            <p>
+              Fokusi ynë kryesor është kënaqësia e klientit dhe ofrimi i
+              zgjidhjeve të qëndrueshme për çdo nevojë ndërtimi.
+            </p>
+          </div>
+          <div>
+            <h3>Pse të na zgjidhni ne?</h3>
+            <ul>
+              <li>• Cilësi e garantuar</li>
+              <li>• Çmime konkurruese</li>
+              <li>• Përvojë e gjatë</li>
+              <li>• Shërbim i shpejtë</li>
+              <li>• Produkte të qëndrueshme</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-title">
+          <h2>PRODUKTET TONA</h2>
+        </div>
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-image">
+              <img src="image/gypa2.jpg" alt="Gypa Betoni" />
+            </div>
+            <div class="product-info">
+              <h3>Gypa Betoni</h3>
+              <p>
+                Gypat betoni të cilësisë së lartë për projekte ndërtimi të
+                ndryshme, Hapje të bunarve. Të prodhuar me materiale premium për
+                qëndrueshëri maksimale.
+              </p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image">
+              <img src="image/gredi1.jpg" alt="Fertraj betoni për shtëpi" />
+            </div>
+            <div class="product-info">
+              <h3>Fertraj për Shtëpi</h3>
+              <p>
+                Fertraj të betonit për shtëpi me cilësi të garantuar. Të
+                përdorur për mbështetje strukturore dhe mbyllje të ndërtesave me
+                siguri maksimale.
+              </p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image">
+              <img src="image/stub2.jpg" alt="Shtylla dhe Gypa Betoni" />
+            </div>
+            <div class="product-info">
+              <h3>Shtylla Betoni</h3>
+              <p>
+                Shtylla betoni të cilësisë së lartë për projekte ndërtimi të
+                ndryshme. Të prodhuar me materiale premium për qëndrueshëri
+                maksimale dhe rezistencë afatgjatë.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-title">
+          <h2>FOTOT</h2>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-wrapper" id="galleryWrapper">
+            <div class="gallery-slide">
+              <img src="image/foto1.jpg" alt="Foto 1" loading="lazy" />
+              <div class="gallery-caption">Foto e realizuar në vitin 1996</div>
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto2.jpg" alt="Foto 2" loading="lazy" />
+              <div class="gallery-caption">
+                Foto e realizuar në vitin 1999 (Kamioni i parë)
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto3.jpg" alt="Foto 3" loading="lazy" />
+              <div class="gallery-caption">Foto e realizuar në vitin 2000</div>
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto4.jpg" alt="Foto 4" loading="lazy" />
+              <div class="gallery-caption">Foto e realizuar në vitin 2001</div>
+            </div>
+            <div class="gallery-slide">
+              <img
+                src="image/foto5.jpg"
+                alt="Pamje nga puna e Llapi Fert"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-slide">
+              <img
+                src="image/foto6.jpg"
+                alt="Pamje nga puna e Llapi Fert"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-slide">
+              <img
+                src="image/foto7.jpg"
+                alt="Pamje nga puna e Llapi Fert"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto8.jpg" alt="Foto 8" loading="lazy" />
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto9.png" alt="Foto 9" loading="lazy" />
+            </div>
+            <div class="gallery-slide">
+              <img
+                src="image/foto10.jpg"
+                alt="Pamje nga puna e Llapi Fert"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto11.jpg" alt="Foto 11" loading="lazy" />
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto12.jpg" alt="Foto 12" loading="lazy" />
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto13.jpg" alt="Foto 13" loading="lazy" />
+            </div>
+            <div class="gallery-slide">
+              <img src="image/foto14.jpg" alt="Foto 14" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Arrow Controls -->
+          <button
+            class="gallery-arrow prev"
+            id="prevBtn"
+            type="button"
+            aria-label="Fotoja e mëparshme"
+          >
+            ←
+          </button>
+          <button
+            class="gallery-arrow next"
+            id="nextBtn"
+            type="button"
+            aria-label="Fotoja tjetër"
+          >
+            →
+          </button>
+
+          <!-- Dot Indicators -->
+          <div class="gallery-nav" id="galleryNav"></div>
+
+          <!-- Counter -->
+          <div class="gallery-counter">
+            <span id="currentSlide">1</span> / <span id="totalSlides">14</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>NA KONTAKTONI</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Informacioni i Kontaktit</h3>
+            <p><strong>Adresa:</strong> Komuna e Podujeves, Kosovë</p>
+            <p><strong>Telefoni:</strong> 049/044-142-014</p>
+            <p><strong>Email:</strong> llapi_fert@hotmail.com</p>
+            <p>
+              <strong>Orari i Punës:</strong> E Hënë - E Shtune: 08:00-17:00
+            </p>
+          </div>
+          <div class="contact-form">
+            <h3>Dërgo Mesazh</h3>
+            <form id="contactForm">
+              <input
+                id="contactName"
+                name="name"
+                type="text"
+                placeholder="Emri i Plotë"
+                required
+              />
+              <input
+                id="contactEmail"
+                name="email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <input
+                id="contactPhone"
+                name="phone"
+                type="tel"
+                placeholder="Telefoni"
+              />
+              <textarea
+                id="contactMessage"
+                name="message"
+                placeholder="Mesazhi juaj..."
+                rows="5"
+                required
+              ></textarea>
+              <button type="submit" class="btn">DËRGO MESAZHIN</button>
+              <p id="contactStatus" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+        <div id="location" class="map-container">
+          <iframe
+            src="https://www.google.com/maps?q=LLAPI+FERT+Gllamnik+Podujev+Kosovo&hl=sq&z=15&t=k&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Llapi Fert Location - Gllamnik, Podujeva, Kosovo"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <a class="footer-brand" href="#home" aria-label="Llapi Fert — kthehu në kryefaqe">
+          <img src="image/llogo-header.png" alt="Llapi Fert" loading="lazy" />
+        </a>
+        <div class="social-media">
+          <h3>Na Ndiqni</h3>
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/LlapiFert"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="facebook"
+              aria-label="Facebook"
+              title="Facebook - Llapi Fert"
+            >
+              <span style="font-weight: bold; font-size: 1.3rem">f</span>
+            </a>
+            <a
+              href="https://www.instagram.com/llapifert"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="instagram"
+              aria-label="Instagram"
+              title="Instagram - llapifert"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                style="margin-top: 2px"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.069 1.646.069 4.85 0 3.204-.012 3.584-.07 4.85-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <p>&copy; 2026 Llapi Fert. Të gjitha të drejtat e rezervuara.</p>
+        <p>Prodhim i Gypave të Betonit & Fertraj Për Shtëpi</p>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #999">
+          Web i zhvilluar nga Eris Zymeri
+        </p>
+      </div>
+    </footer>
+
+    <!-- IMAGE MODAL -->
+    <div id="imageModal" class="modal">
+      <div class="modal-content">
+        <button class="close" type="button" aria-label="Mbyll fotografinë">
+          &times;
+        </button>
+        <img
+          class="modal-image"
+          id="modalImage"
+          src=""
+          alt="Enlarged Product Image"
+        />
+      </div>
+    </div>
+
+    <script src="script.js?v=gallery-frame-4"></script>
+  </body>
+</html>
